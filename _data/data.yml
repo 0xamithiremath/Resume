@@ -1,0 +1,132 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Amit Hiremath
+    tagline: Security Researcher
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: mail.amit.hiremath@gmail.com
+    phone: +91 9731943414
+    timezone: India (GMT+5:30) Timezone
+    citizenship:
+    website: amit-hiremath.com #do not add http://
+    linkedin: //amit--hiremath
+    github: //0xamithiremath
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Professional
+
+        - idiom: Kannada
+          level: Native
+
+        - idiom: Hindi
+          level: Professional
+
+    interests:
+      title: Interests
+      info:
+        - item: Reading
+
+
+career-profile:
+    title: Career Profile
+    summary: |
+      My curiosity and passion for understanding how things work and 
+      my drive to build and occasionally deconstruct them illustrate my 
+      commitment to continuous learning and innovation. Whether I am 
+      examining sophisticated malware, devising robust security solutions, 
+      or experimenting to comprehend the vulnerabilities in systems, 
+      my dedication to exploring and refining my expertise remains unwavering.
+education:
+    title: Education
+    info:
+      - degree: Bachelor of Computer Application
+        university: IEC University
+
+
+experiences:
+    title: Experiences
+    info:
+      - role: Senior Engineer
+        time: July 2020 - Present
+        company: LTIMindtree Ltd, Bangalore
+        details: |
+         - Deep dive analysis of triggered alerts using SIEM, SOAR and other analysis tools
+         - Acknowledging and closing false positives and raising tickets for validated incidents
+         - Threat hunting based on the hypothesis developed by SOC Lead/Manager
+         - Analyzing Events and Logs having malicious behavior of victim's machine.
+         - Follow-up with incident response team for remediation
+         - Conduct research (OSINT, US-CERT, CVE-MITRE, NVD etc.) to generate new threat intelligence.
+         - Maintaining and improving Playbooks and processes
+
+      - role: Senior Engineer
+        time: July 2018 - July 2019
+        company: Mindtree Ltd, Bangalore
+        details: |
+         - Managing firewall, Router, Switches, VPN and F5 load balancer
+         - Monitoring Links & Circuits on SolarWinds and PRTG monitoring tools
+         - Designed, Configured & updated IPAM tool NETBOX with the entire infrastructure details [8DCs]
+         - Worked on Network audit, Commissioning & Decommissioning
+         - Reviewed and modified access control lists (ACLS) as needed to maintain security standards
+         - Performed security audits with full reporting delivered to customer based on application, system, security devices
+         - Configured and maintained Cisco ASA Firewalls, routers &switches
+         - Created SOPs, KB Docum-ents & updated on the Knowledge base regularly
+           
+      - role: Network Support Engineer
+        time: Aug 2016 - Mar 2018
+        company: Hewlett Packard Enterprise [ C2H TEKSystems ], Bangalore
+        details: |
+         - Hands on experience of, HP, Aruba & H3C Switches
+         - Maintaining and configuring HA for all network devices
+         - Vendor management by logging tickets and regular follow-ups for shifting links and setting up and configuring them
+         - Troubleshooting various issues of switches over phone
+         - Firmware upgrades of switches and other network devices remotely
+         - Trained in network technologies including Routing, Switching, Wireless, Security and Network management
+         - Knowledge of network hardware and architecture
+            
+
+certifications:
+      title: Certifications
+      list:
+        - name: CCNA
+        - name: Splunk Fundamentals 1
+        - name: Splunk Certified Cybersecurity Defense Analyst
+       
+projects:
+    title: Trainings
+    
+    Trainings:
+      - title: Malware Analysis
+        
+      - title: Static and dynamic analysis of PE & Non-PE files.
+
+      - title: Threat Hunting
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Malware Analysis
+
+      - name: Threat Hunting
+  
+      - name: PE File Structure
+
+      - name: ProcMon
+
+      - name: Process Hacker
+
+      - name: Windows Sysinternals
+  
+      - name: OSINT
